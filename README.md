@@ -70,6 +70,8 @@ An open-source AI-powered scientific simulation platform. Players learn by exper
 [https://roxanneardary.com/velyndor/](https://roxanneardary.com/velyndor/)  
 An open-source AI-driven MMO with dynamic world building. Players explore, craft, fight, and create lasting legacies in an evolving environment.
 
+---
+
 ## License & Notice Requirements
 
 Open Aresenal Simulation specifications are released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.   
