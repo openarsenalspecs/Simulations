@@ -28,7 +28,11 @@ An AGPL 3.0+ open-source engineering platform with physics-based simulation. It 
 
 - **EarthRoot Network**  
 [https://roxanneardary.com/earthroot-network/](https://roxanneardary.com/earthroot-network/)  
-An open-source AI-assisted infrastructure design system. It generates location-aware modular renewable energy and material solutions shaped by local environmental conditions.  
+An open-source AI-assisted infrastructure design system. It generates location-aware modular renewable energy and material solutions shaped by local environmental conditions.
+
+- **FlightDynamics**
+[https://roxanneardary.com/flightdynamics/](https://roxanneardary.com/flightdynamics/)  
+FlightDynamics is an open, AI-native specification for launch planning, mission engineering, orbital dynamics, and space operations. It defines a modular, local-first framework for building interoperable and explainable systems that model, simulate, and optimize every stage of a space mission lifecycle.  
 
 - **GrowLocal**  
 [https://roxanneardary.com/growlocal/](https://roxanneardary.com/growlocal/)  
