@@ -73,7 +73,7 @@ An open-source physics-accurate AI-assisted space simulation platform. It enable
 [https://roxanneardary.com/separationengine/](https://roxanneardary.com/separationengine/)  
 An open-source AGPL 3.0+ airspace computation platform. Predictive AI and physics-based modeling maintain safe aircraft separation with real-time environmental analysis.  
 
-- **StructIQ**  
+- [**StructIQ Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/8a0cad6790aec7a7ef1fd2c8eb7c815ea521146c/StructIQ.md)    
 [https://roxanneardary.com/structiq/](https://roxanneardary.com/structiq/)  
 An AI-assisted structural engineering platform with digital twin capabilities. It optimizes building designs under AGPLv3 licensing.  
 
