@@ -29,7 +29,7 @@ An open-source dog agility training and competition simulation game. Players pro
 [https://roxanneardary.com/cinerenderai/](https://roxanneardary.com/cinerenderai/)  
 An open-source real-time neural rendering engine powered by AI. It transforms low-cost game renders into cinematic-quality visuals with enhanced lighting, materials, and temporal stability.  
 
-- [**Clause**](https://github.com/openarsenalspecs/Simulations/blob/f6ac234bb226de273340a3bd7e39da3763372ab4/Clause.md)    
+- [**Clause Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/f6ac234bb226de273340a3bd7e39da3763372ab4/Clause.md)    
 [https://roxanneardary.com/clause/](https://roxanneardary.com/clause/)  
 An open-source civic simulation platform for governance modeling. Real-world laws, budgets, and population dynamics interact to show long-term consequences of decisions.  
 
