@@ -45,7 +45,7 @@ An AGPL 3.0+ open-source engineering platform with physics-based simulation. It 
 [https://roxanneardary.com/earthroot-network/](https://roxanneardary.com/earthroot-network/)  
 An open-source AI-assisted infrastructure design system. It generates location-aware modular renewable energy and material solutions shaped by local environmental conditions.
 
-- **FlightDynamics**  
+- [**FlightDynamics Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/ac037fb1600d20dac53dd527a74c0097c0d838af/FlightDynamics.md)    
 [https://roxanneardary.com/flightdynamics/](https://roxanneardary.com/flightdynamics/)  
 FlightDynamics is an open, AI-native specification for launch planning, mission engineering, orbital dynamics, and space operations. It defines a modular, local-first framework for building interoperable and explainable systems that model, simulate, and optimize every stage of a space mission lifecycle.  
 
