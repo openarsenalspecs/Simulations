@@ -91,6 +91,12 @@ An open-source AI-driven MMO with dynamic world building. Players explore, craft
 
 ---
 
+# Specification Branding License (SBL)
+
+Buy the Basket: [https://roxanneardary.com/simulations/](https://roxanneardary.com/simulations/)  
+
+---
+
 ## License & Notice Requirements
 
 Open Aresenal Simulation specifications are released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.   
