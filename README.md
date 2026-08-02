@@ -66,7 +66,11 @@ An open-source modular fighting game for creative combat. Players design customi
 An open-source platform for spaceflight simulation and education. Users simulate spacecraft docking, orbital mechanics, mission planning, and autonomous operations.  
 - **RealityPass**  
 [https://roxanneardary.com/reality-pass/](https://roxanneardary.com/reality-pass/)  
-An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.  
+An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.
+
+- [**RegenBlueprint Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/6a46c622e500acc5d98881aa2bb78227bd568ed5/RegenBlueprint.md)  
+[https://roxanneardary.com/regenblueprint/](https://roxanneardary.com/regenblueprint/)  
+RegenBlueprint is an open specification for intelligent ecosystem design, providing a modular framework for restoring degraded landscapes through AI planning, soil engineering, water management, biodiversity restoration, and scientific monitoring. It enables communities, researchers, and organizations to design, simulate, and manage resilient regenerative ecosystems through open collaboration and adaptive planning.  
 
 - **Separation Engine**  
 [https://roxanneardary.com/separationengine/](https://roxanneardary.com/separationengine/)  
