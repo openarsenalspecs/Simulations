@@ -63,7 +63,12 @@ An open-source modular fighting game for creative combat. Players design customi
 
 - [**LibreSpaceflight Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/fe27d4103556ec53b0fb852c0192d75a0d5b1aea/LibreSpaceflight.md)    
 [https://roxanneardary.com/librespaceflight/](https://roxanneardary.com/librespaceflight/)  
-An open-source platform for spaceflight simulation and education. Users simulate spacecraft docking, orbital mechanics, mission planning, and autonomous operations.  
+An open-source platform for spaceflight simulation and education. Users simulate spacecraft docking, orbital mechanics, mission planning, and autonomous operations.
+
+- [**Pelagia Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/b3af857f69065ac556805ae2828490f7d0dd4898/Pelagia.md)  
+[https://roxanneardary.com/pelagia/](https://roxanneardary.com/pelagia/)  
+Pelagia is an open, modular specification for building living ocean worlds with underwater exploration, diving, spearfishing, marine ecosystems, mapping, and discovery systems. It provides a foundation for creating interoperable ocean simulations with dynamic wildlife, treasure discovery, research, conservation, and multiplayer experiences.  
+ 
 - **RealityPass**  
 [https://roxanneardary.com/reality-pass/](https://roxanneardary.com/reality-pass/)  
 An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.
