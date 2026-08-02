@@ -53,7 +53,7 @@ FlightDynamics is an open, AI-native specification for launch planning, mission 
 [https://roxanneardary.com/growlocal/](https://roxanneardary.com/growlocal/)  
 An open-source AI-assisted town simulation platform. It models sustainable community growth using local skills, resources, and cooperative systems.  
 
-- **HarvestIQ**  
+- [**HarvestIQ Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/40e23218268f954a56a0cc5959923c13779864e3/HarvestIQ.md)    
 [https://roxanneardary.com/harvestiq/](https://roxanneardary.com/harvestiq/)  
 An AI-powered land optimization and simulation platform. Property owners maximize profitability, sustainability, and land use efficiency through geospatial intelligence and modular AI.  
 
@@ -64,7 +64,6 @@ An open-source modular fighting game for creative combat. Players design customi
 - [**LibreSpaceflight Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/fe27d4103556ec53b0fb852c0192d75a0d5b1aea/LibreSpaceflight.md)    
 [https://roxanneardary.com/librespaceflight/](https://roxanneardary.com/librespaceflight/)  
 An open-source platform for spaceflight simulation and education. Users simulate spacecraft docking, orbital mechanics, mission planning, and autonomous operations.  
-
 - **RealityPass**  
 [https://roxanneardary.com/reality-pass/](https://roxanneardary.com/reality-pass/)  
 An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.  
