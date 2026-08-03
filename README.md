@@ -73,7 +73,7 @@ An open-source platform for spaceflight simulation and education. Users simulate
 [https://roxanneardary.com/pelagia/](https://roxanneardary.com/pelagia/)  
 Pelagia is an open, modular specification for building living ocean worlds with underwater exploration, diving, spearfishing, marine ecosystems, mapping, and discovery systems. It provides a foundation for creating interoperable ocean simulations with dynamic wildlife, treasure discovery, research, conservation, and multiplayer experiences.  
  
-- **RealityPass**  
+- [**RealityPass Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/fe30237efa4e8c6ba72d65e5beb7f580bbc4798f/RealityPass.md)    
 [https://roxanneardary.com/reality-pass/](https://roxanneardary.com/reality-pass/)  
 An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.
 
