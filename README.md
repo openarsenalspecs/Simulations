@@ -73,6 +73,10 @@ An open-source modular fighting game for creative combat. Players design customi
 [https://roxanneardary.com/librespaceflight/](https://roxanneardary.com/librespaceflight/)  
 An open-source platform for spaceflight simulation and education. Users simulate spacecraft docking, orbital mechanics, mission planning, and autonomous operations.
 
+- [**LunaSphere Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/e281cc5712a3439a0a4dba44cc03d22a59cd7348/LunaSphere.md)
+ [https://roxanneardary.com/lunasphere/](https://roxanneardary.com/lunasphere/)
+LunaSphere is an open AGPL-3.0+ specification for designing, simulating, and developing a self-sustaining lunar civilization through modular systems for habitats, life support, resource generation, manufacturing, and transportation. It provides an engineering framework for transforming the Moon into humanity’s first interplanetary gateway with rocket infrastructure, electromagnetic launch systems, and expansion capabilities beyond Earth.
+
 - [**Modular Non-Invasive BCI Engineering Platform Specification**](https://github.com/openarsenalspecs/Simulations/blob/3dd34e5a14b117d3d98b0038c3fdaf9108fc4838/Modular%20Non-Invasive%20BCI%20Engineering%20Platform.md)  
 [https://roxanneardary.com/modular-non-invasive-bci-engineering-platform/](https://roxanneardary.com/modular-non-invasive-bci-engineering-platform/)  
 The Modular Non-Invasive BCI Engineering Platform is an open-source, AGPL-3.0+ framework for developing modular non-invasive brain–computer interface systems with standardized wearable and hardware modules. It unifies real-time neural signal processing, machine learning, hardware simulation, sleep and dream analysis, and legal assurance into a scalable neuroengineering platform.  
