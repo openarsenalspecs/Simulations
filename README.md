@@ -53,7 +53,7 @@ An open-source AI-assisted infrastructure design system. It generates location-a
 [https://roxanneardary.com/flightdynamics/](https://roxanneardary.com/flightdynamics/)  
 FlightDynamics is an open, AI-native specification for launch planning, mission engineering, orbital dynamics, and space operations. It defines a modular, local-first framework for building interoperable and explainable systems that model, simulate, and optimize every stage of a space mission lifecycle.  
 
-- **GrowLocal**  
+- [**GrowLocal Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/2b913f0c1a254dd408e4b1ab82c95d5b3b90b33c/GrowLocal.md)    
 [https://roxanneardary.com/growlocal/](https://roxanneardary.com/growlocal/)  
 An open-source AI-assisted town simulation platform. It models sustainable community growth using local skills, resources, and cooperative systems.  
 
