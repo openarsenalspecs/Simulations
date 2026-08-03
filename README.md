@@ -37,7 +37,7 @@ An open-source civic simulation platform for governance modeling. Real-world law
 [https://roxanneardary.com/cognitive-crisis-simulator/](https://roxanneardary.com/cognitive-crisis-simulator/)  
 A voice-driven multi-agent platform exploring high-pressure scenarios. It models how intelligence, communication, and decision-making evolve under crisis conditions.  
 
-- **DesignFlux**  
+- [**DesignFlux Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/5d5898b172301c4fb4b5303bd14959ab2e795c15/DesignFlux.md)    
 [https://roxanneardary.com/designflux/](https://roxanneardary.com/designflux/)  
 An AGPL 3.0+ open-source engineering platform with physics-based simulation. It integrates AI-assisted design and manufacturing workflows for thermal, aerospace, and industrial technologies.  
 
