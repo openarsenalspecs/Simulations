@@ -21,7 +21,7 @@ The specifications emphasize modularity, interoperability, and real-world alignm
 
 ## Simulation Specs
 
-- **Agility Ascension**  
+- [**Agility Ascension Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/fa38213c81b9c7c42eba347b25e8df5c0f0ac198/Agility%20Ascension.md)    
 [https://roxanneardary.com/agility-ascension/](https://roxanneardary.com/agility-ascension/)  
 An open-source dog agility training and competition simulation game. Players progress from practice fields to global trials through skill, focus, distance handling, and environmental challenge systems.  
 
