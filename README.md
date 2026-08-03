@@ -45,7 +45,7 @@ A voice-driven multi-agent platform exploring high-pressure scenarios. It models
 [https://roxanneardary.com/designflux/](https://roxanneardary.com/designflux/)  
 An AGPL 3.0+ open-source engineering platform with physics-based simulation. It integrates AI-assisted design and manufacturing workflows for thermal, aerospace, and industrial technologies.  
 
-- **EarthRoot Network**  
+- [**EarthRoot Network Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/184cb346a1aba8168687204575c4715c6b64910b/EarthRoot%20Network.md)    
 [https://roxanneardary.com/earthroot-network/](https://roxanneardary.com/earthroot-network/)  
 An open-source AI-assisted infrastructure design system. It generates location-aware modular renewable energy and material solutions shaped by local environmental conditions.
 
