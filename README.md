@@ -61,7 +61,7 @@ An open-source AI-assisted town simulation platform. It models sustainable commu
 [https://roxanneardary.com/harvestiq/](https://roxanneardary.com/harvestiq/)  
 An AI-powered land optimization and simulation platform. Property owners maximize profitability, sustainability, and land use efficiency through geospatial intelligence and modular AI.  
 
-- **Infinity Arena**  
+- [**Infinity Arena Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/0ca58af866ad43706d4a6c3265ed0cfddf874c81/Infinity%20Arena.md)    
 [https://roxanneardary.com/infinity-arena/](https://roxanneardary.com/infinity-arena/)  
 An open-source modular fighting game for creative combat. Players design customizable fighter pairs and synergistic systems in an infinite evolving arena.  
 
