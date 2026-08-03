@@ -25,7 +25,7 @@ The specifications emphasize modularity, interoperability, and real-world alignm
 [https://roxanneardary.com/agility-ascension/](https://roxanneardary.com/agility-ascension/)  
 An open-source dog agility training and competition simulation game. Players progress from practice fields to global trials through skill, focus, distance handling, and environmental challenge systems.  
 
-- **CineRenderAI**  
+- [**CineRenderAI Module Specifications**](https://github.com/openarsenalspecs/Simulations/blob/8354792638c20c21656a6885c070e3b9bb35497e/CineRenderAI.md)    
 [https://roxanneardary.com/cinerenderai/](https://roxanneardary.com/cinerenderai/)  
 An open-source real-time neural rendering engine powered by AI. It transforms low-cost game renders into cinematic-quality visuals with enhanced lighting, materials, and temporal stability.  
 
