@@ -27,7 +27,11 @@ An open-source dog agility training and competition simulation game. Players pro
 
 - [**CineRenderAI Module Specifications**](https://github.com/openarsenalspecs/Simulations/blob/8354792638c20c21656a6885c070e3b9bb35497e/CineRenderAI.md)    
 [https://roxanneardary.com/cinerenderai/](https://roxanneardary.com/cinerenderai/)  
-An open-source real-time neural rendering engine powered by AI. It transforms low-cost game renders into cinematic-quality visuals with enhanced lighting, materials, and temporal stability.  
+An open-source real-time neural rendering engine powered by AI. It transforms low-cost game renders into cinematic-quality visuals with enhanced lighting, materials, and temporal stability.
+
+- [**Circulis Aqua Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/730ee8e7fc84368d496588711980a6bd0ca22b1c/Circulis%20Aqua.md)  
+[https://roxanneardary.com/circulis-aqua/](https://roxanneardary.com/circulis-aqua/)  
+Circulis Aqua is a modular, AI-assisted water infrastructure design system for desalination, purification, reuse, and intelligent water distribution networks. It enables scalable, plug-in water independence through local-first optimization, geospatial routing, and closed-loop water management from residential systems to regional infrastructure.  
 
 - [**Clause Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/f6ac234bb226de273340a3bd7e39da3763372ab4/Clause.md)    
 [https://roxanneardary.com/clause/](https://roxanneardary.com/clause/)  
