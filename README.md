@@ -31,7 +31,11 @@ An open-source real-time neural rendering engine powered by AI. It transforms lo
 
 - [**Circulis Aqua Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/730ee8e7fc84368d496588711980a6bd0ca22b1c/Circulis%20Aqua.md)  
 [https://roxanneardary.com/circulis-aqua/](https://roxanneardary.com/circulis-aqua/)  
-Circulis Aqua is a modular, AI-assisted water infrastructure design system for desalination, purification, reuse, and intelligent water distribution networks. It enables scalable, plug-in water independence through local-first optimization, geospatial routing, and closed-loop water management from residential systems to regional infrastructure.  
+Circulis Aqua is a modular, AI-assisted water infrastructure design system for desalination, purification, reuse, and intelligent water distribution networks. It enables scalable, plug-in water independence through local-first optimization, geospatial routing, and closed-loop water management from residential systems to regional infrastructure.
+
+- [**Cirrus Grid Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/6cd717ea367eeea27e198d47ed2b42e1d668641e/CIRRUS%20GRID.md)   
+[https://roxanneardary.com/cirrus-grid/](https://roxanneardary.com/cirrus-grid/)  
+CIRRUS GRID is an open, modular atmospheric intelligence network that transforms airspace into a self-healing communications, sensing, and edge computing infrastructure. By connecting ground systems, autonomous low-altitude swarms, and stratospheric platforms, it provides persistent connectivity, distributed autonomy, and resilient multi-altitude operations.
 
 - [**Clause Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/f6ac234bb226de273340a3bd7e39da3763372ab4/Clause.md)    
 [https://roxanneardary.com/clause/](https://roxanneardary.com/clause/)  
