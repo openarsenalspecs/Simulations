@@ -89,7 +89,7 @@ An open-source AGPL 3.0+ airspace computation platform. Predictive AI and physic
 [https://roxanneardary.com/structiq/](https://roxanneardary.com/structiq/)  
 An AI-assisted structural engineering platform with digital twin capabilities. It optimizes building designs under AGPLv3 licensing.  
 
-- **The Evidence Constitution**  
+- [**The Evidence Constitution Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/d61c899180cec523c8ae7fece413c36065910172/The%20Evidence%20Constitution.md)    
 [https://roxanneardary.com/the-evidence-constitution/](https://roxanneardary.com/the-evidence-constitution/)  
 A modular investigative simulation platform for civic education. It teaches constitutional reasoning through evidence analysis, legal frameworks, and multiplayer decision-making.  
 
