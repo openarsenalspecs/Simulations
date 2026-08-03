@@ -93,7 +93,7 @@ An AI-assisted structural engineering platform with digital twin capabilities. I
 [https://roxanneardary.com/the-evidence-constitution/](https://roxanneardary.com/the-evidence-constitution/)  
 A modular investigative simulation platform for civic education. It teaches constitutional reasoning through evidence analysis, legal frameworks, and multiplayer decision-making.  
 
-- **The Uncertain Machine**  
+- [**The Uncertain Machine Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/52795ff240c7b8bfc28fdf2aa2965e2439e1d57d/The%20Uncertain%20Machine.md)    
 [https://roxanneardary.com/the-uncertain-machine/](https://roxanneardary.com/the-uncertain-machine/)  
 An open-source AI-powered scientific simulation platform. Players learn by experimenting with dynamic models of reality rather than memorizing facts.  
 
