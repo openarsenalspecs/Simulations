@@ -97,7 +97,7 @@ A modular investigative simulation platform for civic education. It teaches cons
 [https://roxanneardary.com/the-uncertain-machine/](https://roxanneardary.com/the-uncertain-machine/)  
 An open-source AI-powered scientific simulation platform. Players learn by experimenting with dynamic models of reality rather than memorizing facts.  
 
-- **Velyndor**  
+- [**Velyndor Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/ad2df0c09b7a1b37571b36c9f5de69e05172167d/Velyndor.md)    
 [https://roxanneardary.com/velyndor/](https://roxanneardary.com/velyndor/)  
 An open-source AI-driven MMO with dynamic world building. Players explore, craft, fight, and create lasting legacies in an evolving environment.
 
