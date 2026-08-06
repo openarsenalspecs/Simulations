@@ -99,7 +99,11 @@ RegenBlueprint is an open specification for intelligent ecosystem design, provid
 
 - [**Separation Engine Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/5efae0beed6b1f237ece5b265a96180f151001d7/Separation%20Engine.md)    
 [https://roxanneardary.com/separationengine/](https://roxanneardary.com/separationengine/)  
-An open-source AGPL 3.0+ airspace computation platform. Predictive AI and physics-based modeling maintain safe aircraft separation with real-time environmental analysis.  
+An open-source AGPL 3.0+ airspace computation platform. Predictive AI and physics-based modeling maintain safe aircraft separation with real-time environmental analysis.
+
+- [**SteadyMission Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/e7382e662dac4623f90a552a236c125c7bbc3561/SteadyMission.md)  
+[https://roxanneardary.com/steadymission/](https://roxanneardary.com/steadymission/)  
+SteadyMission is an open-source AI simulation and mission-alignment platform that helps organizations evaluate strategies, simulate outcomes, and achieve objectives while remaining consistent with their mission, values, and governance principles. Built with a modular multi-agent architecture, SteadyMission provides transparent decision intelligence through specialized AI agents, customizable plugins, and explainable strategic analysis.
 
 - [**StructIQ Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/8a0cad6790aec7a7ef1fd2c8eb7c815ea521146c/StructIQ.md)    
 [https://roxanneardary.com/structiq/](https://roxanneardary.com/structiq/)  
