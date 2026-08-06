@@ -81,7 +81,7 @@ LunaSphere is an open AGPL-3.0+ specification for designing, simulating, and dev
 [https://roxanneardary.com/modular-non-invasive-bci-engineering-platform/](https://roxanneardary.com/modular-non-invasive-bci-engineering-platform/)  
 The Modular Non-Invasive BCI Engineering Platform is an open-source, AGPL-3.0+ framework for developing modular non-invasive brain–computer interface systems with standardized wearable and hardware modules. It unifies real-time neural signal processing, machine learning, hardware simulation, sleep and dream analysis, and legal assurance into a scalable neuroengineering platform.
 
-- [**OrbitReasoning Core Module Specification**]  
+- [**OrbitReasoning Core Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/4b829efa040d5bdfea0ed36beb3b45158b3888a5/OrbitReasoning%20Core.md)    
 [https://roxanneardary.com/orbitreasoning-core/](https://roxanneardary.com/orbitreasoning-core/)  
 OrbitReasoning Core is an autonomous AI Network Operations Center for satellites, spacecraft, and aerospace systems that uses simulation-first reasoning to compute outcomes rather than simply observe states. It processes real-time telemetry into orbital state models and generates governed, explainable decisions for anomaly detection, collision avoidance, and large-scale constellation optimization.  
 
