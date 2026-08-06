@@ -79,7 +79,11 @@ LunaSphere is an open AGPL-3.0+ specification for designing, simulating, and dev
 
 - [**Modular Non-Invasive BCI Engineering Platform Specification**](https://github.com/openarsenalspecs/Simulations/blob/3dd34e5a14b117d3d98b0038c3fdaf9108fc4838/Modular%20Non-Invasive%20BCI%20Engineering%20Platform.md)  
 [https://roxanneardary.com/modular-non-invasive-bci-engineering-platform/](https://roxanneardary.com/modular-non-invasive-bci-engineering-platform/)  
-The Modular Non-Invasive BCI Engineering Platform is an open-source, AGPL-3.0+ framework for developing modular non-invasive brain–computer interface systems with standardized wearable and hardware modules. It unifies real-time neural signal processing, machine learning, hardware simulation, sleep and dream analysis, and legal assurance into a scalable neuroengineering platform.  
+The Modular Non-Invasive BCI Engineering Platform is an open-source, AGPL-3.0+ framework for developing modular non-invasive brain–computer interface systems with standardized wearable and hardware modules. It unifies real-time neural signal processing, machine learning, hardware simulation, sleep and dream analysis, and legal assurance into a scalable neuroengineering platform.
+
+- [**OrbitReasoning Core Module Specification**]  
+[https://roxanneardary.com/orbitreasoning-core/](https://roxanneardary.com/orbitreasoning-core/)  
+OrbitReasoning Core is an autonomous AI Network Operations Center for satellites, spacecraft, and aerospace systems that uses simulation-first reasoning to compute outcomes rather than simply observe states. It processes real-time telemetry into orbital state models and generates governed, explainable decisions for anomaly detection, collision avoidance, and large-scale constellation optimization.  
 
 - [**Pelagia Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/b3af857f69065ac556805ae2828490f7d0dd4898/Pelagia.md)  
 [https://roxanneardary.com/pelagia/](https://roxanneardary.com/pelagia/)  
