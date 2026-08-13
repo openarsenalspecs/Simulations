@@ -1,248 +1,534 @@
 # CineRenderAI
 ### Real-time neural rendering technology.
 
-**CineRenderAI** is an open-source neural rendering engine designed to transform low-cost rasterized frames into cinematic-quality visuals using artificial intelligence.
+CineRenderAI is an open-source real-time neural rendering engine that uses AI to transform low-cost rasterized graphics into cinematic-quality visuals with enhanced lighting, materials, detail, and temporal stability.
 
-Instead of relying solely on traditional rendering pipelines, CineRenderAI uses AI models to reconstruct lighting, materials, detail, and motion across frames—bridging the gap between real-time rendering and film-quality imagery.
+The project is designed as a modular, hardware-agnostic rendering platform that can integrate with existing game engines and graphics pipelines. CineRenderAI focuses on neural reconstruction rather than simply increasing the computational cost of traditional rendering.
 
-The project aims to make next-generation graphics accessible to everyone by providing a **hardware-agnostic, open-source alternative** to proprietary neural rendering technologies.
+## Vision
 
----
+CineRenderAI aims to bridge the gap between real-time rendering and cinematic visual fidelity.
 
-# Vision
+The long-term vision is to enable game engines and interactive applications to render scene structure efficiently while neural models reconstruct increasingly sophisticated visual information, including lighting, materials, reflections, atmospheric effects, and fine surface detail.
 
-Modern graphics engines spend enormous computational power rendering pixels that approximate reality.
+The project is intended to provide an open-source foundation for experimentation and development in real-time neural rendering.
 
-CineRenderAI approaches the problem differently:
+## Goals
 
-**Render the structure of a scene, and let AI reconstruct the reality.**
+- Develop a real-time neural rendering pipeline
+- Reduce the computational cost of high-fidelity graphics
+- Improve visual fidelity through AI reconstruction
+- Maintain temporal stability across frames
+- Provide hardware-agnostic GPU acceleration
+- Support integration with existing game engines
+- Develop open training and evaluation methodologies
+- Enable community-driven neural rendering research
+- Provide modular components that can evolve independently
 
-By combining neural reconstruction, temporal scene understanding, and AI lighting models, CineRenderAI aims to deliver:
+## Core Modules
 
-- cinematic visuals  
-- improved performance  
-- vendor-neutral compatibility  
-- open innovation  
+### Frame Reconstruction Module
 
----
+The Frame Reconstruction Module provides the primary neural image reconstruction pipeline.
 
-# Core Goals
+It processes rendering information such as:
 
-• Create a **real-time neural renderer** for games and interactive applications  
-• Provide a **fully open alternative** to proprietary AI rendering systems  
-• Support **cross-platform GPU acceleration**  
-• Enable **community-driven model training**  
-• Push the boundaries of real-time graphics through open research
+- Low-resolution color frames
+- Depth data
+- Motion vectors
+- Surface normals
+- Material information
+- Previous frame information
+- Rendering metadata
 
----
+The module reconstructs higher-fidelity frames while preserving important scene structure and visual information.
 
-# Key Features
+Core capabilities include:
 
-## Neural Frame Reconstruction
+- Neural super resolution
+- Detail reconstruction
+- Edge reconstruction
+- Texture enhancement
+- Anti-aliasing
+- Fine detail synthesis
+- Image quality preservation
 
-Transforms low-resolution rasterized frames into high-fidelity images using deep learning.
+### Temporal Intelligence Module
 
-Input signals may include:
+The Temporal Intelligence Module provides persistent understanding across consecutive frames.
 
-- color buffer  
-- depth buffer  
-- motion vectors  
-- normal maps  
-- material maps  
-- lighting buffers  
+Rather than treating every frame as an independent image, the module analyzes temporal relationships between frames to maintain visual consistency.
 
-The neural model reconstructs missing detail, stabilizes edges, and enhances textures.
+Core capabilities include:
 
----
+- Temporal feature tracking
+- Motion-aware reconstruction
+- Frame history analysis
+- Temporal artifact reduction
+- Ghosting reduction
+- Flicker reduction
+- Detail persistence
+- Scene consistency
 
-## Temporal Scene Memory
+The module is designed to establish a foundation for longer-term scene memory as the system evolves.
 
-CineRenderAI analyzes multiple frames to understand how objects move and change over time.
+### Neural Lighting Module
 
-This helps eliminate common AI rendering issues such as:
+The Neural Lighting Module reconstructs advanced lighting effects using AI-assisted inference.
 
-- flickering
-- ghosting
-- temporal instability
+Core capabilities include:
 
-By maintaining a short-term scene memory, the renderer produces stable and consistent results.
+- Global illumination reconstruction
+- Indirect lighting
+- Light bounce estimation
+- Soft shadow reconstruction
+- Ambient lighting
+- Atmospheric lighting
+- Light transport approximation
+- Dynamic lighting enhancement
 
----
+The module is intended to reduce the computational burden associated with expensive lighting techniques while maintaining visual quality.
 
-## AI Lighting Reconstruction
+### Neural Reflection Module
 
-Traditional real-time lighting techniques can be computationally expensive.
+The Neural Reflection Module reconstructs reflective surfaces and view-dependent lighting information.
 
-CineRenderAI can approximate advanced lighting effects using neural models:
+Core capabilities include:
 
-- global illumination
-- soft shadows
-- indirect light bounce
-- reflections
-- atmospheric lighting
+- Screen-space reflection enhancement
+- Reflection reconstruction
+- Missing reflection information
+- View-dependent surface response
+- Dynamic reflection approximation
+- Temporal reflection stability
 
----
+The module can use scene geometry, depth, normals, materials, and temporal information to reconstruct reflections that are unavailable from the current frame alone.
 
-## Material and Detail Enhancement
+### Material Intelligence Module
 
-AI models can infer additional surface detail and material characteristics.
+The Material Intelligence Module enhances the visual representation of physical surfaces.
 
-Examples include:
+Core capabilities include:
 
-- micro surface detail
-- realistic reflections
-- natural texture variation
-- improved surface roughness
+- Material classification
+- Surface property reconstruction
+- Roughness enhancement
+- Specular response
+- Micro-detail reconstruction
+- Texture refinement
+- Material consistency across frames
 
-This allows simpler assets to appear significantly more realistic.
+The module is designed to allow relatively simple assets to produce richer visual results through neural inference.
 
----
+### Scene Understanding Module
 
-## Real-Time Performance
+The Scene Understanding Module provides structured interpretation of the rendered scene.
 
-CineRenderAI is designed to run in real time using GPU acceleration.
+It can analyze:
 
-Optimization strategies include:
+- Object identity
+- Surface relationships
+- Scene geometry
+- Camera position
+- Object motion
+- Material properties
+- Lighting relationships
+- Depth relationships
 
-- model pruning
-- quantization
-- tile-based inference
-- frame reuse for static regions
+Scene understanding provides contextual information to other CineRenderAI modules and establishes a foundation for future neural world representations.
 
----
+### Neural Detail Module
 
-## Hardware Agnostic Design
+The Neural Detail Module generates additional visual information that may not be present in the source render.
 
-CineRenderAI aims to support a wide range of GPUs through open standards.
+Core capabilities include:
+
+- Texture detail enhancement
+- Surface microstructure
+- Fine geometric appearance
+- Texture restoration
+- Procedural detail reconstruction
+- Asset enhancement
+
+The module should prioritize temporal consistency and source fidelity rather than unconstrained image generation.
+
+### Motion Intelligence Module
+
+The Motion Intelligence Module analyzes object and camera movement to improve reconstruction and frame generation.
+
+Core capabilities include:
+
+- Motion vector analysis
+- Object motion estimation
+- Camera motion estimation
+- Motion-aware detail preservation
+- Temporal prediction
+- Motion artifact reduction
+
+The module provides motion information to the Temporal Intelligence and Frame Reconstruction modules.
+
+### Inference Optimization Module
+
+The Inference Optimization Module is responsible for making neural rendering practical for real-time workloads.
+
+Core capabilities include:
+
+- Model quantization
+- Model pruning
+- Tensor optimization
+- Tile-based inference
+- Adaptive inference resolution
+- Resource scheduling
+- Frame reuse
+- Region prioritization
+- GPU memory optimization
+
+The module should allow quality and performance to be adjusted independently according to available hardware.
+
+### GPU Compute Module
+
+The GPU Compute Module provides the hardware acceleration layer for neural rendering.
+
+The architecture should prioritize vendor-neutral standards and provide abstraction between CineRenderAI and individual GPU implementations.
 
 Potential backends include:
 
-- Vulkan compute
+- Vulkan
 - OpenCL
-- CUDA (optional)
-- ROCm (optional)
+- CUDA
+- ROCm
+- Other compatible compute backends
 
-The goal is to ensure compatibility across:
+Vendor-specific acceleration should remain optional and should not be required by the core architecture.
 
-- NVIDIA GPUs
-- AMD GPUs
-- Intel GPUs
-- future hardware platforms
+### Pipeline Orchestration Module
 
----
+The Pipeline Orchestration Module coordinates the individual neural rendering components.
 
-# Project Architecture
+It manages:
 
-A simplified rendering pipeline:
+- Module execution order
+- Resource allocation
+- Frame dependencies
+- Temporal state
+- Model selection
+- Quality settings
+- Performance targets
+- Plugin execution
+- Error handling
 
+The orchestration system should allow individual modules to be replaced, upgraded, disabled, or extended without requiring the entire rendering pipeline to be redesigned.
 
-Game Engine
-↓
-Low-cost rasterized frame
-↓
-Scene feature extraction
-↓
-Temporal scene memory
-↓
-Neural rendering model
-↓
-AI lighting reconstruction
-↓
-Final cinematic frame
+### Model Management Module
 
+The Model Management Module manages neural models used throughout CineRenderAI.
 
-Instead of replacing the game engine renderer entirely, CineRenderAI enhances the output through AI reconstruction.
+Core capabilities include:
 
----
+- Model registration
+- Model loading
+- Model versioning
+- Model selection
+- Hardware-aware model selection
+- Model caching
+- Model validation
+- Runtime model switching
 
-# Engine Integration
+Models should be treated as replaceable components rather than permanently embedded into the rendering engine.
 
-CineRenderAI is designed to integrate with existing engines through plugins.
+### Benchmarking Module
 
-Potential integrations include:
+The Benchmarking Module provides standardized evaluation of neural rendering quality and performance.
+
+Metrics may include:
+
+- Frame time
+- Frames per second
+- GPU utilization
+- Memory consumption
+- Reconstruction quality
+- Temporal stability
+- Artifact frequency
+- Lighting accuracy
+- Material fidelity
+- Reflection quality
+
+The benchmarking system should allow CineRenderAI results to be compared against native rendering and other reconstruction technologies using consistent methodologies.
+
+## Optional Plugin Modules
+
+CineRenderAI should support optional plugins that extend functionality without expanding the mandatory core.
+
+### Game Engine Plugins
+
+Optional integrations may provide support for:
 
 - Godot
 - Unreal Engine
 - Unity
+- Other compatible engines
 
-Initial development may focus on open engines to accelerate experimentation.
+Engine plugins should translate native engine rendering information into CineRenderAI-compatible inputs.
 
----
+### Advanced Frame Generation Plugin
 
-# Training Data
+An optional frame generation system may generate intermediate frames using temporal and motion information.
 
-Neural rendering models require large datasets for training.
+The plugin should prioritize:
 
-CineRenderAI will support the development of an open dataset composed of paired renders:
+- Low latency
+- Motion consistency
+- Object boundary accuracy
+- Temporal stability
+- User-configurable quality
 
+### Neural Path Tracing Plugin
 
-Rasterized render → Path-traced render
+An optional plugin may use neural models to approximate selected path tracing workloads.
 
+Potential capabilities include:
 
-Ground-truth renders may be generated using physically based rendering tools.
+- Neural global illumination
+- Neural ray reconstruction
+- Neural denoising
+- Indirect lighting reconstruction
+- Reflection reconstruction
 
-The long-term goal is to build a large **open rendering dataset** that benefits the entire graphics community.
+### Atmospheric Rendering Plugin
 
----
+An optional atmospheric rendering module may enhance:
 
-# Roadmap
+- Fog
+- Volumetric lighting
+- Clouds
+- Smoke
+- Dust
+- Haze
+- Atmospheric scattering
 
-## Phase 1 — Proof of Concept
-- Basic neural upscaling pipeline
-- Frame reconstruction model
-- Prototype engine integration
-- real-time inference demonstration
+### Neural Texture Plugin
 
-## Phase 2 — Temporal Stability
-- multi-frame analysis
-- temporal memory models
-- artifact reduction
+An optional plugin may enhance existing textures through AI-assisted reconstruction.
 
-## Phase 3 — Neural Lighting
-- AI global illumination approximation
-- neural reflections
-- improved lighting realism
+Potential capabilities include:
 
-## Phase 4 — Performance Optimization
-- model pruning
-- inference acceleration
-- GPU optimization
+- Texture upscaling
+- Texture restoration
+- Material-aware detail
+- Surface aging
+- Procedural detail synthesis
 
-## Phase 5 — Ecosystem Expansion
-- engine plugins
-- developer tools
-- open training datasets
-- community contributions
+### Cinematic Effects Plugin
 
----
+An optional plugin may provide neural or AI-assisted cinematic effects such as:
 
-# Why Open Source
+- Depth of field
+- Motion blur
+- Lens effects
+- Volumetric effects
+- Filmic image reconstruction
+- Advanced tone mapping
 
-Graphics innovation has historically been driven by proprietary technologies.
+### Legacy Game Enhancement Plugin
 
-CineRenderAI aims to create an **open platform for neural rendering research and development**, enabling developers, researchers, and creators to experiment freely.
+An optional plugin may provide compatibility with older rendering pipelines and games.
 
-An open ecosystem allows:
+The goal is to allow older titles to benefit from modern neural reconstruction without requiring the original game engine to be rewritten.
 
-- faster innovation
-- community collaboration
-- broader hardware compatibility
-- transparent research
+### Virtual Reality Plugin
 
----
+An optional VR integration may provide specialized neural rendering for stereoscopic and immersive environments.
 
-# Contributing
+Potential capabilities include:
 
-Contributions are welcome from developers across multiple disciplines:
+- Per-eye reconstruction
+- Foveated neural rendering
+- Motion prediction
+- Latency optimization
+- Stereo consistency
 
-- graphics programming
-- machine learning
-- GPU compute
-- game engine development
-- dataset generation
-- documentation
+### Developer Tools Plugin
 
-Please see `CONTRIBUTING.md` for contribution guidelines.
+Optional developer tools may provide:
+
+- Frame inspection
+- Neural model visualization
+- Temporal history visualization
+- Performance profiling
+- Artifact detection
+- Quality comparison
+- Model debugging
+
+## Engine Integration
+
+CineRenderAI should integrate with game engines through clearly defined interfaces.
+
+An integration should provide the renderer with relevant scene information while allowing the original engine to retain control over gameplay, physics, animation, and scene management.
+
+The integration architecture should support:
+
+- Render target access
+- Depth access
+- Motion vector access
+- Normal data
+- Material information
+- Camera information
+- Object identifiers
+- Lighting information
+- Frame history
+
+## Training System
+
+CineRenderAI should include an open training framework for developing and evaluating neural rendering models.
+
+The training system should support paired and multi-modal rendering data.
+
+Potential training inputs include:
+
+- Rasterized renders
+- Path-traced renders
+- Depth
+- Normals
+- Motion vectors
+- Material data
+- Lighting information
+- Camera information
+
+Training targets may include:
+
+- High-fidelity reference frames
+- Lighting solutions
+- Reflection solutions
+- Material responses
+- Temporal reconstruction targets
+
+The training system should support reproducible experiments and clearly documented datasets.
+
+## Open Rendering Dataset
+
+The project should encourage development of an open neural rendering dataset.
+
+The dataset should prioritize legally distributable and appropriately licensed content.
+
+Dataset categories may include:
+
+- Indoor environments
+- Outdoor environments
+- Urban environments
+- Natural environments
+- Vehicles
+- Characters
+- Materials
+- Weather
+- Atmospheric conditions
+- Dynamic lighting
+- Complex motion
+
+Each dataset entry should preserve sufficient metadata to reproduce or evaluate the associated rendering scenario.
+
+## Hardware Compatibility
+
+CineRenderAI should prioritize broad hardware compatibility.
+
+The core system should avoid requiring a specific GPU vendor or proprietary accelerator.
+
+Hardware-specific optimizations may be implemented through optional backends when they provide measurable performance improvements without compromising the portability of the core system.
+
+## Quality and Performance Modes
+
+CineRenderAI should support configurable rendering profiles.
+
+Potential profiles include:
+
+- Performance
+- Balanced
+- Quality
+- Cinematic
+- Maximum Fidelity
+
+Profiles may control:
+
+- Internal render resolution
+- Neural model selection
+- Temporal history
+- Lighting reconstruction
+- Material enhancement
+- Reflection quality
+- Inference precision
+- Frame generation
+- Plugin execution
+
+## Developer API
+
+CineRenderAI should provide a modular API allowing applications and plugins to interact with the rendering pipeline.
+
+The API should provide controlled access to:
+
+- Frame data
+- Scene metadata
+- Temporal state
+- Neural models
+- Rendering modules
+- Performance information
+- Configuration
+- Plugin interfaces
+
+The API should remain stable where possible while allowing internal rendering technologies to evolve.
+
+## Open Research
+
+CineRenderAI is intended to serve as a platform for experimentation in:
+
+- Neural rendering
+- Real-time reconstruction
+- Neural lighting
+- Neural materials
+- Temporal scene understanding
+- Neural frame generation
+- GPU inference
+- Real-time path tracing approximation
+- AI-assisted graphics
+
+Experimental features should be able to exist independently from stable core functionality.
+
+## Security and Reliability
+
+CineRenderAI should prioritize predictable and controlled execution.
+
+The system should provide:
+
+- Model validation
+- Plugin isolation where practical
+- Resource limits
+- Error recovery
+- Graceful fallback to conventional rendering
+- Deterministic evaluation modes where practical
+
+A neural rendering failure should not prevent an application from continuing to render through its underlying graphics pipeline whenever a fallback is available.
+
+## Fallback Rendering
+
+CineRenderAI should never require neural rendering for an application to function.
+
+If a compatible neural model, GPU backend, or plugin is unavailable, the system should be capable of falling back to the application's standard rendering pipeline.
+
+This ensures that neural enhancement remains an optional acceleration and fidelity layer rather than a mandatory dependency.
+
+## Future Direction
+
+The long-term objective of CineRenderAI is to evolve from neural frame reconstruction toward neural scene rendering.
+
+Future systems may use structured scene information to reconstruct increasingly sophisticated representations of:
+
+- Geometry
+- Materials
+- Lighting
+- Reflections
+- Atmosphere
+- Motion
+- Camera perspective
+
+The ultimate goal is to move from reconstructing individual frames toward understanding and rendering complete interactive worlds.
 
 ---
 
@@ -280,22 +566,3 @@ Please note the following:
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
----
-
-# Author
-
-Roxanne Ardary  
-https://roxanneardary.com
-
----
-
-# Future of Rendering
-
-Real-time graphics are approaching a turning point.
-
-As neural rendering technologies mature, the traditional pipeline of brute-force pixel generation may give way to AI-assisted reconstruction.
-
-CineRenderAI explores that future through open collaboration and experimentation.
-
-**From geometry to cinematic reality.**
