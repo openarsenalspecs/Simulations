@@ -1,324 +1,978 @@
-# LibreSpaceflight
+# LibreSpaceflight Specification
+
+**Project Name:** LibreSpaceflight  
+**Tagline:** Democratizing the Science of Space  
+**License:** GNU Affero General Public License v3.0 or later (AGPL-3.0+)
+
+## Specification
+
+LibreSpaceflight shall be an open-source, modular spaceflight simulation and research platform designed to make the science, engineering, and operational concepts of spaceflight accessible to students, educators, developers, researchers, engineers, and enthusiasts.
+
+The platform shall provide a unified simulation environment for spacecraft rendezvous, docking, orbital mechanics, mission planning, spacecraft engineering, autonomous navigation, robotics, space operations, scientific experimentation, and educational training.
+
+The system shall use a modular architecture in which core modules provide the fundamental capabilities of the platform and optional plugin modules extend those capabilities without requiring changes to the core simulation engine.
+
+## Core Module: Simulation Engine
+
+The Simulation Engine shall provide the fundamental computational environment for spaceflight simulation.
+
+Features shall include:
+
+- Newtonian orbital mechanics
+- Relative motion modeling
+- Multi-body gravitational modeling
+- Gravitational perturbations
+- J2 perturbation modeling
+- Atmospheric drag
+- Solar radiation pressure
+- Microgravity simulation
+- Time acceleration and deceleration
+- Simulation pause and resume
+- Deterministic simulation modes
+- Configurable simulation precision
+- Numerical integration methods
+- Collision detection
+- Physical object modeling
+- Mass and inertia calculations
+- Center of mass calculations
+- Force and torque modeling
+- Environmental parameter control
+
+The engine shall support different levels of simulation fidelity so users can select simplified educational models or more advanced research-oriented models.
+
+## Core Module: Spacecraft Dynamics
+
+The Spacecraft Dynamics module shall simulate spacecraft movement and physical behavior.
+
+Features shall include:
+
+- Six-degree-of-freedom spacecraft movement
+- Translational motion
+- Rotational motion
+- Attitude control
+- Reaction control systems
+- Main propulsion
+- Thruster vectoring
+- Fuel consumption
+- Propellant depletion
+- Mass changes during flight
+- Thrust limitations
+- Thruster response characteristics
+- Momentum and angular velocity modeling
+- Spacecraft inertia
+- Center of mass changes
+- Structural response to maneuvering
+
+## Core Module: Rendezvous and Docking
+
+The Rendezvous and Docking module shall provide detailed simulation of spacecraft approach and docking operations.
+
+Features shall include:
+
+- Orbital rendezvous
+- Relative navigation
+- Approach trajectories
+- Closing velocity monitoring
+- Docking port alignment
+- Approach corridor visualization
+- Relative attitude control
+- Soft capture simulation
+- Hard capture simulation
+- Docking constraints
+- Docking tolerances
+- Rotating target docking
+- Tumbling target docking
+- Multi-ship rendezvous
+- Formation flying
+- Docking failure detection
+- Docking abort procedures
+- Precision docking scoring
+
+The module shall support manual, assisted, and autonomous docking operations.
+
+## Core Module: Mission Planning
+
+The Mission Planning module shall provide tools for designing and evaluating spaceflight missions.
+
+Features shall include:
+
+- Mission objective definition
+- Orbital transfer planning
+- Hohmann transfer calculations
+- Phasing orbit calculations
+- Rendezvous planning
+- Launch window analysis
+- Delta-V budgeting
+- Maneuver planning
+- Burn scheduling
+- Fuel budgeting
+- Trajectory visualization
+- Mission timeline creation
+- Mission constraint management
+- Contingency planning
+- Mission success criteria
+
+Mission plans shall be exportable and reusable as simulation scenarios.
+
+## Core Module: Navigation
+
+The Navigation module shall provide spacecraft position, velocity, orientation, and relative-navigation capabilities.
+
+Features shall include:
+
+- Absolute navigation
+- Relative navigation
+- Position estimation
+- Velocity estimation
+- Attitude estimation
+- Target tracking
+- Sensor fusion
+- Navigation uncertainty modeling
+- Navigation error modeling
+- Navigation updates
+- Communication delay simulation
+- Navigation failure scenarios
+
+## Core Module: Sensor Simulation
+
+The Sensor Simulation module shall reproduce spacecraft navigation and docking sensor behavior.
+
+Supported sensor types shall include:
+
+- Star trackers
+- Inertial measurement units
+- Radar
+- LIDAR
+- Optical navigation cameras
+- Docking cameras
+- Range sensors
+- Relative velocity sensors
+- Simulated satellite navigation
+
+Features shall include:
+
+- Sensor noise
+- Measurement uncertainty
+- Sensor bias
+- Sensor drift
+- Occlusion
+- Sensor degradation
+- Sensor failure
+- Intermittent measurements
+- Sensor fusion experimentation
+
+## Core Module: Guidance, Navigation, and Control
+
+The GNC module shall provide systems for controlling spacecraft movement and attitude.
+
+Features shall include:
+
+- Manual control
+- Assisted control
+- PID controllers
+- Model predictive control
+- Attitude control
+- Translational control
+- Approach control
+- Docking control
+- Automated maneuver execution
+- Control response analysis
+- Controller tuning
+- Stability analysis
+- Control failure simulation
+
+## Core Module: Spacecraft Designer
+
+The Spacecraft Designer shall allow users to create configurable spacecraft for simulation.
+
+Features shall include:
+
+- Modular spacecraft construction
+- Component placement
+- Docking port configuration
+- Thruster placement
+- Propellant tank configuration
+- Power system configuration
+- Sensor placement
+- Communications equipment
+- Payload configuration
+- Mass distribution
+- Center of mass visualization
+- Inertia calculations
+- Thrust vector analysis
+- Spacecraft compatibility validation
+
+The designer shall support reusable spacecraft configurations.
+
+## Core Module: Spacecraft Systems
+
+The Spacecraft Systems module shall simulate major spacecraft subsystems.
+
+Supported systems shall include:
+
+- Propulsion
+- Power
+- Communications
+- Thermal control
+- Guidance
+- Navigation
+- Control
+- Payload systems
+- Life support where enabled
+
+The module shall support subsystem states, resource consumption, degradation, and failure conditions.
+
+## Core Module: Mission Control
+
+The Mission Control module shall provide ground-based mission monitoring and operational control.
+
+Features shall include:
+
+- Telemetry monitoring
+- Mission status displays
+- Command management
+- Command sequencing
+- Maneuver planning
+- Communications simulation
+- Communication delays
+- Mission timeline monitoring
+- Anomaly detection
+- Emergency procedures
+- Mission logging
+- Ground operator workflows
+
+Mission Control shall support scenarios involving multiple operators and spacecraft.
+
+## Core Module: Telemetry and Data
+
+The Telemetry module shall collect and process simulation data.
+
+Features shall include:
+
+- Real-time telemetry
+- Historical telemetry
+- Flight event logging
+- Sensor data logging
+- Propulsion data
+- Navigation data
+- Docking data
+- Mission events
+- Failure events
+- Performance metrics
+- Replay data
+
+Supported export formats shall include CSV, JSON, HDF5, and other research-compatible formats through extensible data adapters.
+
+## Core Module: Replay and Analysis
+
+The Replay and Analysis module shall allow users to examine completed simulations.
+
+Features shall include:
+
+- Mission replay
+- Time scrubbing
+- Multiple camera perspectives
+- Telemetry overlays
+- Event markers
+- Maneuver visualization
+- Docking analysis
+- Fuel analysis
+- Navigation error analysis
+- Control performance analysis
+- Failure analysis
+- Annotation tools
+- Comparative mission analysis
+
+## Core Module: Scenario Engine
+
+The Scenario Engine shall provide a standardized framework for creating simulation scenarios.
+
+Scenarios shall support:
+
+- Mission objectives
+- Starting conditions
+- Spacecraft configurations
+- Target configurations
+- Orbital parameters
+- Environmental conditions
+- Time limits
+- Fuel limits
+- Failure conditions
+- Success conditions
+- Scoring criteria
+- Mission events
+- Difficulty levels
+
+Scenarios shall be shareable and reusable.
+
+## Core Module: Spaceflight Goals
+
+The Spaceflight Goals module shall provide mission-oriented objectives.
+
+Supported goals shall include:
+
+- Safe rendezvous
+- Precision docking
+- Fuel-efficient docking
+- Time-critical docking
+- Autonomous docking
+- Multi-spacecraft coordination
+- Satellite servicing
+- Space station assembly
+- Cargo delivery
+- Emergency rescue
+- Orbital debris removal
+- Scientific observation
+- Asteroid operations
+- Interplanetary navigation
+- Planetary landing
+- Mission recovery
+- Long-duration mission planning
+
+## Core Module: Education and Training
+
+The Education and Training module shall provide structured learning experiences.
+
+Features shall include:
+
+- Beginner tutorials
+- Guided docking procedures
+- Orbital mechanics lessons
+- Interactive explanations
+- Progressive difficulty
+- Mission objectives
+- Training checkpoints
+- Performance scoring
+- Instructor-defined scenarios
+- Student performance tracking
+- Mission reports
+- Replay-based instruction
+
+The module shall support classroom, self-directed, and laboratory-based learning.
+
+## Core Module: Research Environment
+
+The Research Environment shall support scientific and engineering experimentation.
+
+Features shall include:
+
+- Batch simulations
+- Parameter sweeps
+- Monte Carlo simulations
+- Experimental configurations
+- Algorithm comparisons
+- Statistical analysis
+- Telemetry collection
+- Repeatable experiments
+- Research dataset generation
+- Simulation result comparison
+- Experiment metadata
+- Reproducibility support
+
+## Core Module: Visualization
+
+The Visualization module shall provide interactive representations of the simulation.
+
+Features shall include:
+
+- Three-dimensional spacecraft visualization
+- Cockpit views
+- External camera views
+- Orbital trajectories
+- Relative motion displays
+- Docking alignment indicators
+- Telemetry displays
+- Mission timelines
+- Sensor visualization
+- Spacecraft system status
+- Navigation displays
+- Mission Control displays
+
+## Core Module: Accessibility and Interface
+
+The platform shall provide configurable interfaces suitable for different users and experience levels.
+
+Supported controls shall include:
+
+- Keyboard
+- Mouse
+- Gamepad
+- Joystick
+- HOTAS systems
+- Configurable control schemes
+
+Interface features shall include:
+
+- Adjustable HUDs
+- Configurable telemetry
+- Tutorial overlays
+- Accessibility settings
+- Simulation difficulty controls
+- Units selection
+- Display scaling
+- Input remapping
+
+## Core Module: Multiplayer and Collaboration
+
+The Multiplayer module shall support collaborative spaceflight operations.
+
+Features shall include:
+
+- Multiple spacecraft
+- Cooperative docking
+- Mission Control operators
+- Shared mission scenarios
+- Real-time telemetry
+- Collaborative mission planning
+- Spectator mode
+- Competitive mission challenges
+- Session recording
+
+## Core Module: Historical Missions
+
+The Historical Missions module shall provide educational recreations of historical spaceflight operations.
+
+Supported mission categories may include:
+
+- Apollo-era docking operations
+- Shuttle operations
+- Shuttle-Mir operations
+- International Space Station assembly
+- Commercial crew docking
+- Satellite servicing missions
+
+Historical scenarios shall clearly distinguish educational simulation from official mission software or operational systems.
+
+## Core Module: Real Orbital Data
+
+The Real Orbital Data module shall support integration of publicly available orbital information.
+
+Features shall include:
+
+- TLE data
+- Satellite orbital parameters
+- Historical orbital data
+- Realistic ISS scenarios
+- Satellite tracking scenarios
+- Orbital data import
+- Data validation
+
+External data sources shall remain optional and shall not be required for the core simulator.
+
+## Core Module: Space Traffic Management
+
+The Space Traffic Management module shall simulate increasingly crowded orbital environments.
+
+Features shall include:
+
+- Multiple satellite populations
+- Orbital traffic
+- Conjunction detection
+- Collision risk analysis
+- Avoidance maneuver planning
+- Traffic alerts
+- Automated warning systems
+- Spacecraft coordination
+
+## Core Module: Space Robotics
+
+The Space Robotics module shall support robotic spacecraft operations.
+
+Features shall include:
+
+- Robotic arm simulation
+- Robotic capture
+- Module movement
+- Satellite inspection
+- Satellite servicing
+- Orbital construction
+- Robotic docking assistance
+- Robotic manipulation
+
+## Core Module: Orbital Construction
+
+The Orbital Construction module shall support assembly and construction missions.
+
+Features shall include:
+
+- Modular station assembly
+- Habitat construction
+- Solar array installation
+- Docking adapter installation
+- Orbital shipyard scenarios
+- Multi-spacecraft construction
+- Robotic construction operations
+
+## Core Module: Satellite Servicing
+
+The Satellite Servicing module shall provide scenarios involving active servicing of spacecraft.
+
+Features shall include:
+
+- Inspection
+- Capture
+- Refueling
+- Component replacement
+- Solar array repair
+- Attitude stabilization
+- Servicing of cooperative spacecraft
+- Servicing of damaged or uncontrolled spacecraft
+
+## Core Module: Orbital Debris
+
+The Orbital Debris module shall support debris management and removal scenarios.
+
+Features shall include:
+
+- Debris population modeling
+- Debris tracking
+- Collision risk
+- Capture operations
+- Controlled deorbit planning
+- Debris mitigation scenarios
+
+## Core Module: Interplanetary Navigation
+
+The Interplanetary Navigation module shall extend simulation beyond Earth orbit.
+
+Features shall include:
+
+- Heliocentric trajectories
+- Interplanetary transfers
+- Transfer windows
+- Gravity assists
+- Multi-body dynamics
+- Long-duration mission planning
+- Deep-space navigation
+
+## Core Module: Planetary Operations
+
+The Planetary Operations module shall support operations around and on planetary bodies.
+
+Features shall include:
+
+- Lunar operations
+- Mars operations
+- Planetary descent
+- Landing guidance
+- Terrain hazard detection
+- Surface mission planning
+- Launch and ascent scenarios
+
+## Core Module: Asteroid Operations
+
+The Asteroid Operations module shall support missions involving small bodies.
+
+Features shall include:
+
+- Low-gravity dynamics
+- Asteroid rendezvous
+- Station keeping
+- Surface proximity operations
+- Anchoring scenarios
+- Sample collection
+- Sample return
+- Mining simulations
+
+## Core Module: Space Weather
+
+The Space Weather module shall provide configurable environmental conditions.
+
+Features shall include:
+
+- Solar activity
+- Radiation events
+- Solar storms
+- Navigation interference
+- Communications disruption
+- Spacecraft system impacts
 
-**Democratizing the Science of Space**
+## Core Module: Scientific Payloads
+
+The Scientific Payload module shall support space-based research missions.
+
+Supported payload types shall include:
+
+- Telescopes
+- Earth observation instruments
+- Mapping systems
+- Particle detectors
+- Scientific sensors
+- Experimental instruments
 
+## Core Module: Crew Operations
 
-LibreSpaceflight is an open-source platform for simulating spacecraft docking, orbital mechanics, mission planning, and autonomous space operations.
+The Crew Operations module shall provide optional human factors simulation.
 
-The project aims to make aerospace simulation, orbital research, and mission training accessible to students, engineers, researchers, and enthusiasts around the world.
+Features shall include:
 
-LibreSpaceflight provides a flexible environment for learning, experimentation, and innovation in spaceflight systems — from orbital rendezvous and docking to interplanetary navigation and autonomous spacecraft control.
+- Crew roles
+- Workload
+- Fatigue
+- Task scheduling
+- Mission responsibilities
+- Crew coordination
+- Emergency response
 
----
+## Core Module: Mission Economy
 
-# Vision
+The Mission Economy module shall provide optional economic simulation.
 
-Spaceflight tools have historically been limited to government agencies and large aerospace companies. LibreSpaceflight exists to change that.
+Features shall include:
 
-Our mission is to create a **fully open, community-driven platform for space mission simulation, aerospace research, and orbital mechanics education.**
+- Mission budgets
+- Launch costs
+- Fuel costs
+- Cargo contracts
+- Resupply missions
+- Resource management
+- Mission profitability
+- Commercial space operations
 
-LibreSpaceflight enables:
+## Core Module: Procedural Missions
 
-* aerospace education
-* open scientific research
-* AI spacecraft navigation experimentation
-* mission planning training
-* collaborative open spaceflight development
+The Procedural Mission module shall generate dynamic mission scenarios.
 
-Anyone can explore, build, simulate, and contribute.
+Generated scenarios may include:
 
----
+- Emergency docking
+- Rescue missions
+- Satellite interception
+- Damaged station repair
+- Cargo delivery
+- Debris removal
+- Asteroid rendezvous
+- Scientific missions
 
-# Key Features
+Mission generation shall support configurable difficulty, objectives, environmental conditions, and constraints.
 
-## Orbital Mechanics Simulation
+## Core Module: AI Mission Director
 
-* Newtonian orbital physics
-* relative motion modeling
-* multi-body gravitational systems
-* orbital perturbations (J2, atmospheric drag)
-* solar radiation pressure
+The AI Mission Director shall provide optional intelligent mission generation and training assistance.
 
-## Spacecraft Rendezvous & Docking
+Features shall include:
 
-* precision docking procedures
-* soft-capture and hard-capture docking phases
-* rotating and tumbling target docking
-* formation flying
-* multi-vehicle rendezvous
+- Dynamic mission generation
+- Difficulty adjustment
+- Training recommendations
+- Performance analysis
+- Scenario adaptation
+- Mission objective generation
 
-## Spacecraft Design Tools
+## Core Module: Autonomous Docking Benchmark
 
-* modular spacecraft builder
-* thruster placement editor
-* docking port configuration
-* mass distribution visualization
-* center-of-mass calculations
+The platform shall provide a standardized environment for autonomous docking research.
 
-## Mission Planning System
+Benchmark capabilities shall include:
 
-* Hohmann transfer planning
-* delta-V budgeting
-* phasing orbit calculations
-* maneuver scheduling
-* trajectory visualization
+- Standardized docking scenarios
+- Controller evaluation
+- Reinforcement learning evaluation
+- Classical control evaluation
+- Hybrid controller evaluation
+- Performance metrics
+- Fuel efficiency metrics
+- Docking accuracy metrics
+- Failure rate analysis
+- Repeatability testing
 
-## Navigation & Sensors
+Benchmark results shall be exportable for research and comparison.
 
-* star tracker simulation
-* inertial measurement units
-* radar and lidar docking sensors
-* optical navigation cameras
-* multi-sensor fusion
+## Core Module: Open Spacecraft Database
 
-## Autonomous Spacecraft & AI
+The platform shall provide a structured reference system for spacecraft information.
 
-* PID autopilot control
-* reinforcement learning docking agents
-* trajectory optimization algorithms
-* AI navigation experiments
-* autonomous docking benchmarking
+Records may include:
 
-## Robotics & Space Operations
+- Spacecraft mass
+- Propulsion characteristics
+- Docking configuration
+- Power characteristics
+- Sensor capabilities
+- Operational limitations
+- Mission role
+- Historical information
 
-* robotic arm operations
-* satellite capture
-* station construction missions
-* module installation
-* satellite servicing
+Data shall be clearly identified as authoritative, modeled, estimated, or community supplied.
 
-## Orbital Environment Simulation
+## Core Module: Digital Twin Framework
 
-* Low Earth Orbit
-* lunar orbit
-* Mars orbit
-* asteroid proximity operations
-* deep-space missions
+The Digital Twin framework shall provide an extensible foundation for representing real spacecraft and systems in simulation.
 
-## Scientific Payloads
+Features shall include:
 
-* telescope payloads
-* Earth observation missions
-* particle detector experiments
-* mapping instruments
+- Configurable spacecraft models
+- Telemetry mapping
+- System state modeling
+- Component models
+- Sensor models
+- Mission-specific configurations
+- Simulation comparison
 
-## Spacecraft Systems Simulation
+Digital twins shall be clearly identified as simulations and shall not imply operational certification.
 
-* power systems
-* communications
-* thermal control
-* guidance, navigation, and control systems
+## Core Module: Hardware Interface
 
-## Planetary Landing Systems
+The Hardware Interface module shall support external simulation hardware.
 
-* lunar descent guidance
-* Mars atmospheric entry
-* retropropulsive landing systems
-* terrain hazard detection
+Supported categories may include:
 
-## Space Debris Mitigation
+- Flight controls
+- Joysticks
+- HOTAS systems
+- VR devices
+- Motion platforms
+- Robotics interfaces
 
-* debris capture missions
-* net and robotic capture systems
-* controlled de-orbit operations
+Hardware integration shall remain optional and shall not be required for normal operation.
 
-## Interplanetary Navigation
+# Optional Plugin Modules
 
-* gravity assist trajectories
-* heliocentric orbit simulation
-* long-duration mission planning
+LibreSpaceflight shall support optional plugins that extend the core platform without requiring every user to install every capability.
 
----
+## Plugin: Advanced Physics
 
-# Research Capabilities
+Provides additional high-fidelity physics models, numerical methods, and specialized orbital mechanics capabilities.
 
-LibreSpaceflight is designed as a platform for experimentation and analysis.
+## Plugin: Reinforcement Learning
 
-Researchers can perform:
+Provides environments, interfaces, training utilities, and evaluation tools for reinforcement learning spacecraft agents.
 
-* autonomous spacecraft docking experiments
-* AI navigation training
-* orbital mechanics studies
-* mission optimization research
-* Monte Carlo simulation testing
+## Plugin: Genetic Optimization
 
-Simulation data can be exported in:
+Provides evolutionary optimization for trajectory planning, controller tuning, spacecraft configurations, and mission planning.
 
-* CSV
-* JSON
-* HDF5
-* MATLAB compatible formats
+## Plugin: AI Coaching
 
----
+Provides intelligent analysis of user performance and recommendations for improving docking, navigation, and mission execution.
 
-# Educational Use
+## Plugin: Mission Generator
 
-LibreSpaceflight can be used in:
+Provides advanced procedural generation of missions, objectives, environmental conditions, failures, and mission constraints.
 
-* aerospace engineering programs
-* orbital mechanics courses
-* robotics research labs
-* physics classrooms
-* STEM education initiatives
+## Plugin: VR and AR
 
-Classroom tools include:
+Provides immersive cockpit, visualization, and training interfaces for compatible hardware.
 
-* instructor dashboards
-* mission exercises
-* student scoring
-* orbital mechanics lab simulations
+## Plugin: Robotics
 
----
+Provides advanced robotic arm simulation, manipulation, capture, servicing, and construction capabilities.
 
-# Historical Mission Library
+## Plugin: EVA
 
-The platform includes recreations of important space missions such as:
+Provides external crew activity simulation, astronaut movement, equipment installation, inspection, and repair scenarios.
 
-* Apollo docking missions
-* Shuttle-Mir operations
-* International Space Station assembly
-* commercial crew dockings
+## Plugin: Crew Systems
 
-These missions provide realistic educational scenarios.
+Provides expanded human factors, workload, fatigue, crew scheduling, and multi-role mission operations.
 
----
+## Plugin: Space Weather
 
-# Mission Types
+Provides advanced solar, radiation, and space weather event models.
 
-Users can simulate a wide range of missions:
+## Plugin: Real-Time Orbital Data
 
-* spacecraft docking
-* satellite servicing
-* orbital station assembly
-* debris removal
-* cargo resupply
-* asteroid exploration
-* scientific observation missions
+Provides integrations for compatible public orbital data sources and satellite tracking services.
 
----
+## Plugin: Historical Mission Pack
 
-# Community Ecosystem
+Provides additional historically inspired scenarios and mission configurations.
 
-LibreSpaceflight is designed as a collaborative open platform.
+## Plugin: Planetary Environments
 
-Contributors can create:
+Provides additional planetary terrain, atmospheric, gravitational, and operational environments.
 
-* spacecraft models
-* space stations
-* mission scenarios
-* AI navigation algorithms
-* research experiments
-* physics modules
+## Plugin: Asteroid Generator
 
-All contributions help expand the open spaceflight ecosystem.
+Provides procedural asteroid generation and customizable small-body environments.
 
----
+## Plugin: Scientific Payloads
 
-# Developer API
+Provides additional scientific instruments, observation systems, and experimental mission capabilities.
 
-LibreSpaceflight supports scripting and development.
+## Plugin: Multiplayer
 
-Supported languages:
+Provides expanded networked simulation, collaborative mission operations, competitive scenarios, and spectator capabilities.
 
-* Python
-* Rust
-* C++
+## Plugin: Mission Control
 
-Developers can build:
+Provides advanced ground control interfaces, operator stations, telemetry consoles, and mission command systems.
 
-* custom spacecraft
-* physics modules
-* autopilot systems
-* mission generators
-* research simulations
+## Plugin: Economy
 
----
+Provides commercial mission planning, contracts, budgets, resource management, and economic simulation.
 
-# Repository Structure
+## Plugin: Classroom
 
-```
-LibreSpaceflight
-├── docs
-├── src
-│   ├── physics
-│   ├── navigation
-│   ├── docking
-│   ├── spacecraft
-│   ├── robotics
-│   ├── mission_control
-│   └── ai
-├── spacecraft_designer
-├── mission_planner
-├── environments
-├── scenarios
-├── historical_missions
-├── research_tools
-├── analytics
-├── assets
-├── api
-└── tests
-```
+Provides instructor tools, student management, assignments, grading metrics, and educational mission packages.
 
----
+## Plugin: Research Suite
 
-# Getting Started
+Provides advanced batch simulation, Monte Carlo analysis, parameter sweeps, experiment management, and research data workflows.
 
-### Requirements
+## Plugin: Digital Twin
 
-* Python 3.11+
-* OpenGL compatible GPU
-* 8GB RAM recommended
+Provides advanced real-world spacecraft modeling and telemetry mapping capabilities for research and educational digital twin applications.
 
-### Installation
+## Plugin: Hardware Integration
 
-```
-git clone https://codeberg.org/RoxanneA/LibreSpaceflight.git
-cd LibreSpaceflight
-pip install -r requirements.txt
-```
+Provides interfaces for specialized physical controls, robotics equipment, motion systems, and simulation hardware.
 
-### Run the Simulator
+## Plugin: Open Telemetry Network
 
-```
-python main.py
-```
+Provides shared telemetry feeds, public mission monitoring, live mission dashboards, and spectator systems.
 
----
+## Plugin: Governance and Space Policy
 
-# Contributing
+Provides educational scenarios involving orbital coordination, debris mitigation, spectrum conflicts, mission regulations, and space governance.
 
-LibreSpaceflight welcomes contributions from developers, researchers, educators, and space enthusiasts.
+# Plugin Architecture
 
-Ways to contribute:
+Plugins shall:
 
-* improving simulation physics
-* developing new spacecraft models
-* creating missions and scenarios
-* improving documentation
-* developing AI navigation systems
+- Be independently installable
+- Have clearly defined interfaces
+- Declare dependencies
+- Declare supported LibreSpaceflight versions
+- Avoid modifying core modules directly
+- Provide documentation
+- Provide tests appropriate to their functionality
+- Identify their own licensing requirements
+- Clearly distinguish optional dependencies from required dependencies
 
-Please read the **CONTRIBUTING.md** file for development guidelines.
+The plugin system shall allow new capabilities to evolve independently while maintaining a stable core simulation environment.
 
----
+# Safety and Simulation Boundaries
 
-# Roadmap
+LibreSpaceflight is an educational, research, and simulation platform.
 
-Initial development goals:
+The project shall:
 
-Phase 1
-Core orbital mechanics engine and docking simulation.
+- Clearly identify simulated data
+- Distinguish educational scenarios from operational spacecraft procedures
+- Avoid representing simulation results as flight-certified guidance
+- Provide appropriate warnings for experimental AI systems
+- Document assumptions and limitations of physics models
+- Identify approximations used by simplified simulation modes
+- Encourage validation against appropriate scientific references
 
-Phase 2
-Spacecraft designer and mission planning tools.
+LibreSpaceflight shall not represent itself as certified operational spacecraft software.
 
-Phase 3
-AI autopilot and autonomous docking research tools.
+# Open Research
 
-Phase 4
-Robotics operations and satellite servicing missions.
+LibreSpaceflight shall encourage reproducible research and transparent experimentation.
 
-Phase 5
-Interplanetary navigation and advanced space operations.
+Research features shall support:
+
+- Reproducible scenarios
+- Versioned simulation configurations
+- Experiment metadata
+- Parameter documentation
+- Dataset export
+- Algorithm comparison
+- Benchmark publication
+- Simulation replay
+- Research citation
+
+The project shall encourage researchers to publish methodology, assumptions, simulation parameters, and limitations alongside results.
+
+# Community Mission Library
+
+The platform shall support a community-driven library of:
+
+- Training missions
+- Research scenarios
+- Historical recreations
+- Spacecraft configurations
+- Space station configurations
+- Autonomous docking challenges
+- Orbital mechanics exercises
+- Scientific experiments
+
+Community content shall identify its author, licensing terms, source data, and any external dependencies where applicable.
+
+# Gamification
+
+Optional gamification capabilities shall include:
+
+- Docking challenges
+- Fuel efficiency challenges
+- Precision docking scores
+- Mission completion scores
+- Achievement systems
+- Campaign progression
+- Leaderboards
+- Multiplayer competitions
+- Historical mission challenges
+
+Gamification shall remain separate from research and educational scoring where necessary so that entertainment metrics do not compromise scientific evaluation.
+
+# Accessibility
+
+LibreSpaceflight shall strive to make advanced spaceflight concepts accessible to users with different levels of technical knowledge.
+
+The platform shall provide:
+
+- Beginner simulation modes
+- Advanced simulation modes
+- Guided tutorials
+- Configurable interfaces
+- Clear terminology
+- Unit selection
+- Adjustable visualization complexity
+- Accessible controls
+- Educational explanations
+
+# Extensibility
+
+The architecture shall allow future modules to support emerging areas of spaceflight.
+
+Potential future extensions may include:
+
+- Advanced autonomous spacecraft
+- Space-based manufacturing
+- Orbital logistics
+- Lunar infrastructure
+- Mars infrastructure
+- Space-based observatories
+- Distributed spacecraft systems
+- Autonomous satellite networks
+- Advanced robotic construction
+- New propulsion models
+- New navigation methods
+- New scientific payloads
+
+# Development Principles
+
+LibreSpaceflight development shall prioritize:
+
+- Open-source collaboration
+- Scientific transparency
+- Reproducibility
+- Modular architecture
+- Interoperability
+- Extensibility
+- Local-first simulation where practical
+- Vendor independence
+- Human oversight
+- Educational accessibility
+- Research utility
+- Clear documentation
+
+# Project Goals
+
+LibreSpaceflight shall pursue the following long-term goals:
+
+- Democratize access to spaceflight simulation
+- Make orbital mechanics easier to learn
+- Provide an open platform for autonomous spacecraft research
+- Support aerospace education
+- Encourage collaborative spaceflight development
+- Create open benchmarks for spacecraft autonomy
+- Support reproducible spaceflight research
+- Encourage experimentation with spacecraft design
+- Provide accessible mission planning tools
+- Expand public participation in space science
 
 ---
 
@@ -356,18 +1010,3 @@ Please note the following:
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
----
-
-# Acknowledgments
-
-LibreSpaceflight is inspired by decades of space exploration and the work of engineers, researchers, astronauts, and open-source contributors who believe the future of space should be shared by everyone.
-
----
-
-# Join the Mission
-
-Space exploration belongs to humanity.
-
-LibreSpaceflight exists to make the tools of spaceflight open to the world.
-
-**Democratizing the Science of Space.**
