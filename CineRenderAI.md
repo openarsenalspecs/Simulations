@@ -1,5 +1,8 @@
 # CineRenderAI
-### Real-time neural rendering technology.
+**Real-time neural rendering technology.**
+- HTML Mirror:  [https://roxanneardary.com/cinerenderai-specification/](https://roxanneardary.com/cinerenderai-specification/)
+
+---
 
 CineRenderAI is an open-source real-time neural rendering engine that uses AI to transform low-cost rasterized graphics into cinematic-quality visuals with enhanced lighting, materials, detail, and temporal stability.
 
@@ -565,4 +568,4 @@ Please note the following:
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
