@@ -1,8 +1,8 @@
 # LibreSpaceflight Specification
+**Democratizing the Science of Space**  
+- HTML Mirror: [https://roxanneardary.com/librespaceflight-specification/](https://roxanneardary.com/librespaceflight-specification/)
 
-**Project Name:** LibreSpaceflight  
-**Tagline:** Democratizing the Science of Space  
-**License:** GNU Affero General Public License v3.0 or later (AGPL-3.0+)
+---
 
 ## Specification
 
@@ -11,6 +11,8 @@ LibreSpaceflight shall be an open-source, modular spaceflight simulation and res
 The platform shall provide a unified simulation environment for spacecraft rendezvous, docking, orbital mechanics, mission planning, spacecraft engineering, autonomous navigation, robotics, space operations, scientific experimentation, and educational training.
 
 The system shall use a modular architecture in which core modules provide the fundamental capabilities of the platform and optional plugin modules extend those capabilities without requiring changes to the core simulation engine.
+
+---
 
 ## Core Module: Simulation Engine
 
@@ -842,40 +844,6 @@ Plugins shall:
 
 The plugin system shall allow new capabilities to evolve independently while maintaining a stable core simulation environment.
 
-# Safety and Simulation Boundaries
-
-LibreSpaceflight is an educational, research, and simulation platform.
-
-The project shall:
-
-- Clearly identify simulated data
-- Distinguish educational scenarios from operational spacecraft procedures
-- Avoid representing simulation results as flight-certified guidance
-- Provide appropriate warnings for experimental AI systems
-- Document assumptions and limitations of physics models
-- Identify approximations used by simplified simulation modes
-- Encourage validation against appropriate scientific references
-
-LibreSpaceflight shall not represent itself as certified operational spacecraft software.
-
-# Open Research
-
-LibreSpaceflight shall encourage reproducible research and transparent experimentation.
-
-Research features shall support:
-
-- Reproducible scenarios
-- Versioned simulation configurations
-- Experiment metadata
-- Parameter documentation
-- Dataset export
-- Algorithm comparison
-- Benchmark publication
-- Simulation replay
-- Research citation
-
-The project shall encourage researchers to publish methodology, assumptions, simulation parameters, and limitations alongside results.
-
 # Community Mission Library
 
 The platform shall support a community-driven library of:
@@ -890,57 +858,6 @@ The platform shall support a community-driven library of:
 - Scientific experiments
 
 Community content shall identify its author, licensing terms, source data, and any external dependencies where applicable.
-
-# Gamification
-
-Optional gamification capabilities shall include:
-
-- Docking challenges
-- Fuel efficiency challenges
-- Precision docking scores
-- Mission completion scores
-- Achievement systems
-- Campaign progression
-- Leaderboards
-- Multiplayer competitions
-- Historical mission challenges
-
-Gamification shall remain separate from research and educational scoring where necessary so that entertainment metrics do not compromise scientific evaluation.
-
-# Accessibility
-
-LibreSpaceflight shall strive to make advanced spaceflight concepts accessible to users with different levels of technical knowledge.
-
-The platform shall provide:
-
-- Beginner simulation modes
-- Advanced simulation modes
-- Guided tutorials
-- Configurable interfaces
-- Clear terminology
-- Unit selection
-- Adjustable visualization complexity
-- Accessible controls
-- Educational explanations
-
-# Extensibility
-
-The architecture shall allow future modules to support emerging areas of spaceflight.
-
-Potential future extensions may include:
-
-- Advanced autonomous spacecraft
-- Space-based manufacturing
-- Orbital logistics
-- Lunar infrastructure
-- Mars infrastructure
-- Space-based observatories
-- Distributed spacecraft systems
-- Autonomous satellite networks
-- Advanced robotic construction
-- New propulsion models
-- New navigation methods
-- New scientific payloads
 
 # Development Principles
 
@@ -1003,7 +920,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- LibreSpaceflight specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- LibreSpaceflight specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.   
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
