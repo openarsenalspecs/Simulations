@@ -69,7 +69,7 @@ An AI-powered land optimization and simulation platform. Property owners maximiz
 [https://roxanneardary.com/infinity-arena/](https://roxanneardary.com/infinity-arena/)  
 An open-source modular fighting game for creative combat. Players design customizable fighter pairs and synergistic systems in an infinite evolving arena.  
 
-- [**LibreSpaceflight Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/dde3c6a10bc526522a93810843b8845203f67fc1/LibreSpaceflight.md)    
+- [**LibreSpaceflight Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/f33b8285df91eec84adb26d6d61a66e7b666b566/LibreSpaceflight.md)    
 [https://roxanneardary.com/librespaceflight/](https://roxanneardary.com/librespaceflight/)  
 An open-source platform for spaceflight simulation and education. Users simulate spacecraft docking, orbital mechanics, mission planning, and autonomous operations.
 
