@@ -41,7 +41,7 @@ CIRRUS GRID is an open, modular atmospheric intelligence network that transforms
 [https://roxanneardary.com/clause/](https://roxanneardary.com/clause/)  
 An open-source civic simulation platform for governance modeling. Real-world laws, budgets, and population dynamics interact to show long-term consequences of decisions.  
 
-- [**Cognitive Crisis Simulator Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/f0679abdff42fd69b41c876f69fbb99580bb2972/Cognitive%20Crisis%20Simulator.md)    
+- [**Cognitive Crisis Simulator Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/47a24d9390151dfba6b7ee8aa11b8baaf1d28a67/Cognitive%20Crisis%20Simulator.md)     
 [https://roxanneardary.com/cognitive-crisis-simulator/](https://roxanneardary.com/cognitive-crisis-simulator/)  
 A voice-driven multi-agent platform exploring high-pressure scenarios. It models how intelligence, communication, and decision-making evolve under crisis conditions.  
 
