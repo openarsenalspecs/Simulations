@@ -1,5 +1,8 @@
 # Clause Specification
-*Systems Matter.*
+**Systems Matter.**
+- HTML Mirror:  [https://roxanneardary.com/clause-specification/](https://roxanneardary.com/clause-specification/)
+
+---
 
 ## Overview
 
@@ -513,28 +516,7 @@ Infrastructure priorities
 
 Housing strategies
 
-Economic development opportunities
-
----
-
-# Geographic Data
-
-Supports
-
-- Cities
-- Townships
-- Counties
-- Regions
-- States
-
-Uses
-
-- Parcel data
-- Census data
-- GIS layers
-- Utility maps
-- Road networks
-- Environmental datasets
+Economic development opportunities 
 
 ---
 
@@ -627,128 +609,6 @@ Modules
 
 ---
 
-# Developer Architecture
-
-Simulation Engine
-
-AI Layer
-
-Data Layer
-
-Import Layer
-
-Visualization Layer
-
-Plugin Layer
-
-API Layer
-
-User Interface
-
-Analytics Layer
-
-Persistence Layer
-
----
-
-# API
-
-REST API
-
-Local API
-
-Plugin API
-
-Simulation API
-
-Import API
-
-Reporting API
-
----
-
-# Security
-
-Offline mode
-
-Local AI
-
-Permission management
-
-Data validation
-
-Plugin sandboxing
-
-Audit logs
-
-Reproducible simulations
-
----
-
-# Performance
-
-Multi-threaded simulation
-
-Incremental calculations
-
-Background processing
-
-Large dataset support
-
-Streaming imports
-
-Caching
-
-GPU acceleration where applicable
-
----
-
-# Documentation
-
-Developer documentation
-
-Simulation documentation
-
-API documentation
-
-Plugin documentation
-
-Data specifications
-
-Architecture guides
-
-Tutorials
-
-Examples
-
----
-
-# Future Modules
-
-International support
-
-Historical simulations
-
-Climate adaptation
-
-Disaster scenarios
-
-Regional cooperation
-
-Trade simulation
-
-Supply chain modeling
-
-Election simulation
-
-Public participation tools
-
-Legislative drafting assistance
-
-Digital twin integration
-
----
-
 ## Specification Branding License (SBL)
 ### Standard
 - Fully AGPL-3.0+ compliant system
@@ -783,21 +643,3 @@ Please note the following:
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
-# 🔹 Who This Is For
-
-Urban planners and local government analysts
-
-Civic tech developers and open data enthusiasts
-
-Policy researchers and economists
-
-Educators and universities exploring municipal governance
-
-Anyone interested in testing sustainable community design in a safe sandbox
-
-# 🔹 Vision
-
-Clause is not about growth for growth’s sake. It’s about resilient, self-sufficient communities and understanding how rules, budgets, and population dynamics interact in complex systems.
-
-Clause — Systems Matter.
