@@ -37,7 +37,7 @@ Circulis Aqua is a modular, AI-assisted water infrastructure design system for d
 [https://roxanneardary.com/cirrus-grid/](https://roxanneardary.com/cirrus-grid/)  
 CIRRUS GRID is an open, modular atmospheric intelligence network that transforms airspace into a self-healing communications, sensing, and edge computing infrastructure. By connecting ground systems, autonomous low-altitude swarms, and stratospheric platforms, it provides persistent connectivity, distributed autonomy, and resilient multi-altitude operations.
 
-- [**Clause Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/f6ac234bb226de273340a3bd7e39da3763372ab4/Clause.md)    
+- [**Clause Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/4a0937b64f51f819b1bf57c42c770f835f97b32b/Clause.md)  
 [https://roxanneardary.com/clause/](https://roxanneardary.com/clause/)  
 An open-source civic simulation platform for governance modeling. Real-world laws, budgets, and population dynamics interact to show long-term consequences of decisions.  
 
