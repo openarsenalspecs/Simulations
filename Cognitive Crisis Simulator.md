@@ -1,4 +1,8 @@
 # Cognitive Crisis Simulator Specification
+**Where Survival Is a Conversation**
+- HTML Mirror:  [https://roxanneardary.com/cognitive-crisis-simulator-specification/](https://roxanneardary.com/cognitive-crisis-simulator-specification/)
+
+---
 
 ## Overview
 
@@ -441,54 +445,6 @@ Features
 
 ---
 
-## Visualization
-
-Features
-
-- Live dashboards
-- Agent timelines
-- Trust graphs
-- Resource charts
-- Crisis timeline
-- Decision trees
-- Communication network
-- Heat maps
-- Performance summaries
-
----
-
-## Plugin System
-
-Supports third-party extensions.
-
-Plugin categories
-
-- AI providers
-- Voice providers
-- Scenario packs
-- Environment modules
-- Analytics tools
-- Visualization tools
-- UI themes
-- Research modules
-- Export formats
-
----
-
-## AI Provider Compatibility
-
-Designed to support multiple AI providers.
-
-Examples include
-
-- Local LLMs
-- Cloud LLMs
-- OpenAI-compatible APIs
-- Self-hosted inference servers
-- Research models
-
----
-
 ## Storage
 
 Supported storage
@@ -499,80 +455,6 @@ Supported storage
 - MySQL
 - Object storage
 - Vector databases
-
----
-
-## APIs
-
-Supported interfaces
-
-- REST
-- WebSocket
-- Server-Sent Events
-- Plugin API
-- Scenario API
-- Analytics API
-- Voice API
-
----
-
-## Security
-
-Features
-
-- Authentication
-- Authorization
-- Role management
-- Session management
-- Secure communications
-- Audit logging
-- Permission controls
-
----
-
-## Deployment
-
-Supports
-
-- Local desktop
-- Research workstation
-- Docker
-- Kubernetes
-- Private cloud
-- Public cloud
-- Edge deployments
-
----
-
-# Intended Applications
-
-- Artificial intelligence research
-- Human-AI interaction studies
-- Multi-agent systems research
-- Emergency response training
-- Education
-- Decision science
-- Behavioral science
-- Social simulation
-- AI benchmarking
-- Simulation-based learning
-
----
-
-# Future Expansion
-
-Potential future modules
-
-- Reinforcement learning integration
-- Federated simulations
-- Multi-site experiments
-- Autonomous scenario generation
-- Robotics integration
-- Digital twin environments
-- Mixed reality support
-- Virtual reality support
-- Augmented reality support
-- Biometric feedback integration
 
 ---
 
@@ -603,7 +485,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- Cognitive Crisis Simulator specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- Cognitive Crisis Simulator specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
