@@ -97,7 +97,7 @@ An open-source physics-accurate AI-assisted space simulation platform. It enable
 [https://roxanneardary.com/regenblueprint/](https://roxanneardary.com/regenblueprint/)  
 RegenBlueprint is an open specification for intelligent ecosystem design, providing a modular framework for restoring degraded landscapes through AI planning, soil engineering, water management, biodiversity restoration, and scientific monitoring. It enables communities, researchers, and organizations to design, simulate, and manage resilient regenerative ecosystems through open collaboration and adaptive planning.  
 
-- [**Separation Engine Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/5efae0beed6b1f237ece5b265a96180f151001d7/Separation%20Engine.md)    
+- [**Separation Engine Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/b7962b30a09817fd4583d1fe54717db6cf191154/Separation%20Engine.md)     
 [https://roxanneardary.com/separationengine/](https://roxanneardary.com/separationengine/)  
 An open-source AGPL 3.0+ airspace computation platform. Predictive AI and physics-based modeling maintain safe aircraft separation with real-time environmental analysis.
 
