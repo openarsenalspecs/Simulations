@@ -1,5 +1,8 @@
 # RealityPass Specification
-*There are no shortcuts past physics.*
+**There are no shortcuts past physics.**
+- HTML Mirror:  [https://roxanneardary.com/reality-pass-specification/](https://roxanneardary.com/reality-pass-specification/)
+
+---
 
 ## Overview
 
@@ -8,35 +11,6 @@ RealityPass is an open source, AI assisted, physics accurate space engineering s
 Unlike traditional simulation games, RealityPass does not simplify the laws of physics to improve gameplay. Every spacecraft, habitat, propulsion system, orbital maneuver, and mission is evaluated using deterministic scientific models designed to reproduce realistic outcomes. Successful designs demonstrate engineering excellence, while flawed designs fail for the same reasons they would fail in reality.
 
 RealityPass combines scientific simulation, artificial intelligence, collaborative engineering, and immersive virtual reality into a single platform where users can safely experiment, iterate, and learn from both success and failure.
-
----
-
-# Objectives
-
-- Build a scientifically accurate engineering sandbox
-- Eliminate arcade style physics
-- Encourage experimentation without real world risk
-- Teach engineering through realistic consequences
-- Create an extensible open source aerospace simulation platform
-- Support education, research, and collaborative design
-- Provide AI assisted engineering guidance
-- Simulate complete mission lifecycles
-- Visualize engineering decisions in immersive virtual reality
-
----
-
-# Core Principles
-
-- Physics first
-- AI assists but never overrides science
-- Deterministic simulation
-- Explainable engineering
-- Open architecture
-- Community driven
-- Modular design
-- Education through experimentation
-- Collaboration by default
-- Reality over entertainment
 
 ---
 
@@ -400,33 +374,6 @@ Includes:
 
 ---
 
-# Target Users
-
-- Aerospace engineers
-- Researchers
-- Universities
-- Students
-- Space agencies
-- Open source developers
-- Robotics engineers
-- Simulation enthusiasts
-- Makers
-- STEM educators
-
----
-
-# Long Term Vision
-
-RealityPass aims to become the world's most comprehensive open source space engineering simulation platform, providing an environment where ideas are challenged by real physics before they become reality.
-
-By combining deterministic simulation, artificial intelligence, immersive virtual reality, collaborative engineering, and open scientific data, RealityPass seeks to reduce engineering risk, accelerate innovation, improve STEM education, and enable the next generation of space exploration.
-
-**RealityPass**
-
-*There are no shortcuts past physics.*
-
----
-
 ## Specification Branding License (SBL)
 ### Standard
 - Fully AGPL-3.0+ compliant system
@@ -444,7 +391,7 @@ By combining deterministic simulation, artificial intelligence, immersive virtua
 
 ---
 
-## 📜 License & Notice Requirements
+## License & Notice Requirements
 
 Reality Pass is released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.  
 By contributing to this project, you agree that your contributions will also be released under this license.
@@ -461,21 +408,3 @@ Please note the following:
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome across:  
-Simulation, physics, AI, materials science, aerospace engineering, VR development, UI, education, and open data.
-
-Please submit pull requests or open issues.  
-All contributions must follow the AGPL 3.0+ license with required attribution.
-
----
-
-## 🌌 Mission
-
-Reality Pass provides the gateway where humanity can safely explore ideas, test consequences, and validate the future — before any metal is cut, any propellant loaded, or any mission launched.
-
-**There are no shortcuts past physics.**
