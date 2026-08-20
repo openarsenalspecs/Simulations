@@ -1,17 +1,14 @@
 # Separation Engine  
 **Separation. Guaranteed.**
+- HTML Mirror:  [https://roxanneardary.com/separationengine-specification/](https://roxanneardary.com/separationengine-specification/)  
 
+---
 
 ## Project Overview
 
 A comprehensive introduction describing Separation Engine as an open-source predictive airspace computation platform that continuously models aircraft trajectories, atmospheric conditions, aircraft performance, and operational constraints to maintain mathematically verifiable aircraft separation.
 
 Explain that the platform is designed to assist air traffic controllers through predictive intelligence rather than replace them.
-
-Include attribution to:
-
-- Roxanne Ardary
-- https://www.roxanneardary.com/
 
 ---
 
@@ -391,41 +388,21 @@ Global predictive network
 
 ---
 
-## Documentation
+## Specification Branding License (SBL)
+### Standard
+- Fully AGPL-3.0+ compliant system
+- Copyleft enforced for network deployments
+- Required attribution:
+  - Roxanne Ardary
+  - https://www.roxanneardary.com/
 
-Include links to
+### Optional
 
-- Workflow
-- Contributing
-- Notice
-- License
-- Security Policy
-- Code of Conduct
-- Governance
-- Architecture
-- API Documentation
-- Plugin Guide
+- **Specification Branding License (SBL)**
+  - Attribution-free commercial deployment
+  - Pricing based on scale, usage, and deployment scope
+  - [https://roxanneardary.com/separationengine/](https://roxanneardary.com/separationengine/)  
 
----
-
-## Community
-
-- Discussions
-- Issues
-- Feature Requests
-- RFC process
-- Working Groups
-- Research Partners
-
----
-
-## Closing
-
-**Separation Engine**
-
-**Separation. Guaranteed.**
-
-Building the future of predictive airspace safety through transparent, open-source, physics-driven aviation intelligence.
 ---
 
 ## License & Notice Requirements
