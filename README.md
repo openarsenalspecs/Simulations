@@ -89,9 +89,9 @@ OrbitReasoning Core is an autonomous AI Network Operations Center for satellites
 [https://roxanneardary.com/pelagia/](https://roxanneardary.com/pelagia/)  
 Pelagia is an open, modular specification for building living ocean worlds with underwater exploration, diving, spearfishing, marine ecosystems, mapping, and discovery systems. It provides a foundation for creating interoperable ocean simulations with dynamic wildlife, treasure discovery, research, conservation, and multiplayer experiences.  
  
-- [**RealityPass Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/fe30237efa4e8c6ba72d65e5beb7f580bbc4798f/RealityPass.md)    
+- [**RealityPass Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/7a0e94b15ac0e6958d7cffe822d736d6247cf7a2/RealityPass.md)  
 [https://roxanneardary.com/reality-pass/](https://roxanneardary.com/reality-pass/)  
-An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.
+An open-source physics-accurate AI-assisted space simulation platform. It enables designing, testing, and experiencing spacecraft systems before real-world construction.  
 
 - [**RegenBlueprint Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/6a46c622e500acc5d98881aa2bb78227bd568ed5/RegenBlueprint.md)  
 [https://roxanneardary.com/regenblueprint/](https://roxanneardary.com/regenblueprint/)  
