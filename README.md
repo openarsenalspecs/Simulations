@@ -105,7 +105,7 @@ An open-source AGPL 3.0+ airspace computation platform. Predictive AI and physic
 [https://roxanneardary.com/steadymission/](https://roxanneardary.com/steadymission/)  
 SteadyMission is an open-source AI simulation and mission-alignment platform that helps organizations evaluate strategies, simulate outcomes, and achieve objectives while remaining consistent with their mission, values, and governance principles. Built with a modular multi-agent architecture, SteadyMission provides transparent decision intelligence through specialized AI agents, customizable plugins, and explainable strategic analysis.
 
-- [**StructIQ Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/8a0cad6790aec7a7ef1fd2c8eb7c815ea521146c/StructIQ.md)    
+- [**StructIQ Module Specification**](https://github.com/openarsenalspecs/Simulations/blob/42737f90ff4582d569c562412f2a98f40c6d9f13/StructIQ.md)  
 [https://roxanneardary.com/structiq/](https://roxanneardary.com/structiq/)  
 An AI-assisted structural engineering platform with digital twin capabilities. It optimizes building designs under AGPLv3 licensing.  
 
